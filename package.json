@@ -1,6 +1,6 @@
 {
   "name": "@hjopel/three-bmfont-text",
-  "version": "3.0.1",
+  "version": "3.0.3",
   "description": "renders BMFont files in ThreeJS with word-wrapping while not expecting a global THREE variable",
   "main": "index.js",
   "license": "MIT",

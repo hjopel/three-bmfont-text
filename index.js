@@ -13,7 +13,7 @@ module.exports = function createTextGeometry(opt) {
 };
 
 function TextGeometry(opt) {
-  Base.call(this);
+  Base = THREE.BufferGeometry.call(this)
 
   if (typeof opt === "string") {
     opt = { text: opt };

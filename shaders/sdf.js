@@ -1,5 +1,5 @@
 var assign = require('object-assign')
-
+var THREE = require("three")
 module.exports = function createSDFShader (opt) {
   opt = opt || {}
   var opacity = typeof opt.opacity === 'number' ? opt.opacity : 1
