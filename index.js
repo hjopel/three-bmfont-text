@@ -4,6 +4,7 @@ var createIndices = require('quad-indices')
 
 var vertices = require('./lib/vertices')
 var utils = require('./lib/utils')
+global.THREE = require('three')
 
 var Base = THREE.BufferGeometry
 

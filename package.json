@@ -1,18 +1,13 @@
 {
-  "name": "three-bmfont-text",
+  "name": "@hjopel/three-bmfont-text",
   "version": "3.0.0",
-  "description": "renders BMFont files in ThreeJS with word-wrapping",
+  "description": "renders BMFont files in ThreeJS with word-wrapping while not expecting a global THREE variable",
   "main": "index.js",
   "license": "MIT",
   "author": {
-    "name": "Matt DesLauriers",
-    "email": "dave.des@gmail.com",
-    "url": "https://github.com/mattdesl"
-  },
-  "standard": {
-    "globals": [
-      "THREE"
-    ]
+    "name": "Jan Hoppel",
+    "email": "office@hjopel.at",
+    "url": "https://github.com/hjopel"
   },
   "dependencies": {
     "array-shuffle": "^1.0.1",
