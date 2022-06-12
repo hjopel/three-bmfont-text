@@ -1,6 +1,6 @@
 {
   "name": "@hjopel/three-bmfont-text",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "renders BMFont files in ThreeJS with word-wrapping while not expecting a global THREE variable",
   "main": "index.js",
   "license": "MIT",
@@ -65,10 +65,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/Jam3/three-bmfont-text.git"
+    "url": "git://github.com/hjopel/three-bmfont-text.git"
   },
-  "homepage": "https://github.com/Jam3/three-bmfont-text",
+  "homepage": "https://github.com/hjopel/three-bmfont-text",
   "bugs": {
-    "url": "https://github.com/Jam3/three-bmfont-text/issues"
+    "url": "https://github.com/hjopel/three-bmfont-text/issues"
   }
 }
