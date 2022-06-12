@@ -5,6 +5,7 @@
  */
 
 var THREE = require('three')
+global.THREE = THREE;
 var quote = require('sun-tzu-quotes')
 var createOrbitViewer = require('three-orbit-viewer')(THREE)
 var createBackground = require('three-vignette-background')

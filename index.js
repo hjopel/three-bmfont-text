@@ -5,7 +5,7 @@ var createIndices = require("quad-indices");
 var vertices = require("./lib/vertices");
 var utils = require("./lib/utils");
 var THREE = require("three");
-
+global.THREE = THREE;
 var Base = THREE.BufferGeometry;
 
 module.exports = function createTextGeometry(opt) {
@@ -13,6 +13,8 @@ module.exports = function createTextGeometry(opt) {
 };
 
 function TextGeometry(opt) {
+
+  console.log(THREE);
   Base = THREE.BufferGeometry.call(this)
 
   if (typeof opt === "string") {

@@ -1,6 +1,6 @@
 {
   "name": "@hjopel/three-bmfont-text",
-  "version": "3.0.3",
+  "version": "3.0.4",
   "description": "renders BMFont files in ThreeJS with word-wrapping while not expecting a global THREE variable",
   "main": "index.js",
   "license": "MIT",
@@ -16,6 +16,7 @@
     "nice-color-palettes": "^3.0.0",
     "object-assign": "^4.0.1",
     "quad-indices": "^2.0.1",
+    "three": "^0.118.3",
     "three-buffer-vertex-data": "^1.0.0"
   },
   "devDependencies": {
@@ -28,7 +29,6 @@
     "load-bmfont": "^1.0.0",
     "standard": "^14.3.4",
     "sun-tzu-quotes": "^1.0.0",
-    "three": "^0.118.3",
     "three-orbit-viewer": "^69.2.9",
     "three-vignette-background": "^1.0.2",
     "uglify-js": "^3.10.0"
